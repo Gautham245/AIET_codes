@@ -15,7 +15,7 @@ int main()
 {
     	int n;
 	printf("\n\n Linked List : Create a singly linked list and print it in reverse order :\n");
-	printf("------------------------------------------------------------------------------\n");
+	printf("----------------------------------------------------------------------------\n");
 		
     	printf(" Input the number of nodes : ");
     	scanf("%d", &n);
