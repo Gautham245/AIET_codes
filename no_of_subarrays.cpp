@@ -3,7 +3,7 @@ using namespace std;
 
 void cntArray(int A[], int N) 
 { 
-	int result = 0; 
+	int result= 0; 
 	int frequency[N + 1] = { 0 }; 
 	for (int i = 0; i < N; i++) { 
 		frequency[A[i]]++ ; 
