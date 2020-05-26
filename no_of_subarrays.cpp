@@ -6,7 +6,7 @@ void cntArray(int A[], int N)
 	int result = 0; 
 	int frequency[N + 1] = { 0 }; 
 	for (int i = 0; i < N; i++) { 
-		frequency[A[i]]++; 
+		frequency[A[i]]++ ; 
 	} 
 	for (int i = 1; i <= N; i++) { 
 		int frequency_of_i = frequency[i]; 
