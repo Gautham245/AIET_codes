@@ -18,7 +18,7 @@ int checkArmstrong(int num){
 }
 void main()
 {
-	int i,n;
+	int i, n;
 	printf("Enter the value of N: ");
 	scanf("%d",&n);
 	printf("All Armstrong numbers from 1 to %d:\n",n);
